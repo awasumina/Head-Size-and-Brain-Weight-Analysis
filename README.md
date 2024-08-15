@@ -19,19 +19,19 @@ The dataset used in this analysis is `headbrain.csv`, which contains two columns
 
 1. **Data Loading**: The dataset is loaded using pandas.
 2. **Data Analysis**: 
-   - In `manual_regression.py`, the coefficients \( b_0 \) and \( b_1 \) are calculated using the formula for linear regression.
-   - In `sklearn_regression.py`, the `LinearRegression` model is trained on the dataset.
+   - In `linear_regression_with_r_square_method.py`, the coefficients \( b_0 \) and \( b_1 \) are calculated using the formula for linear regression.
+   - In `linear_regression_by_scikit_learn.py`, the `LinearRegression` model is trained on the dataset.
 3. **Visualization**: The regression line is plotted along with the scatter plot of the data points.
 4. **Model Evaluation**:
    - The R-squared value is calculated in both approaches to check the goodness of fit.
-   - The RMSE is also calculated in the `sklearn_regression.py` script.
+   - The RMSE is also calculated in the `linear_regression_by_scikit_learn.py` script.
 
 
 ## Results
 
 Both scripts will output the regression coefficients and the R-squared value. The calculated R-squared value for this analysis is approximately **0.6393**, indicating that around 63.93% of the variance in brain weight can be explained by head size.
 
-The `sklearn_regression.py` script will additionally output the Root Mean Squared Error (RMSE).
+The `linear_regression_by_scikit_learnn.py` script will additionally output the Root Mean Squared Error (RMSE).
 
 ## Conclusion
 
