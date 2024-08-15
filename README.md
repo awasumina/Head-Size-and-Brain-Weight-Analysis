@@ -4,9 +4,9 @@ This project demonstrates a simple linear regression analysis on a dataset conta
 
 ## Project Structure
 
-- `manual_regression.py`: This script performs linear regression manually using numpy. It calculates the coefficients \( b_0 \) and \( b_1 \) using the formula for simple linear regression and plots the regression line. Additionally, it calculates the R-squared value to evaluate the goodness of fit.
+- `linear_regression_with_r_square_method.py`: This script performs linear regression manually using numpy. It calculates the coefficients \( b_0 \) and \( b_1 \) using the formula for simple linear regression and plots the regression line. Additionally, it calculates the R-squared value to evaluate the goodness of fit.
 
-- `sklearn_regression.py`: This script performs linear regression using the `LinearRegression` model from the `scikit-learn` library. It also calculates the Root Mean Squared Error (RMSE) and the R-squared value to compare the results with the manual approach.
+- `linear_regression_by_scikit_learn.py`: This script performs linear regression using the `LinearRegression` model from the `scikit-learn` library. It also calculates the Root Mean Squared Error (RMSE) and the R-squared value to compare the results with the manual approach.
 
 ## Dataset
 
